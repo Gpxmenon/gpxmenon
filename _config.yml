@@ -1,7 +1,7 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
-permalink: /:title/
+title: "Gouripriya Sreekumar Menon"
+author: "Gouri"
+description: "My Portfolio"
+permalink: /:https://gpxmenon.github.io/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -18,13 +18,12 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  - {file: "archive.html", title: Home change sidebaricon: home}
+  - {file: "README.md", title: About me, sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:gpx.menon@gmail.com"}
+ 
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
